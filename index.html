@@ -10,19 +10,19 @@
 </head>
 <body>
     <header>
-        <h1>Curiosidades de Tecnologia</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
+        <h1 id="curiosidade">Curiosidades de Tecnologia</h1>
+        <p id="tudo_aquilo">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
         </p>
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Notícias</a>
-        <a href="#">Curiosidades</a>
-        <a href="#">Fale Conosco</a>
+        <a href="#" onclick="aumentar()">+ Fonte</a>
+        <a href="#" onclick="diminuir()">- Fonte</a>
+        <a href="#" onclick="diminuir()">Tema claro</a>
+        <a href="#" onclick="diminuir()">Tema escuro</a>
     </nav>
     <main>
         <article>
-            <h1>História do Mascote do Android</h1>
+            <h1 id="historia">História do Mascote do Android</h1>
 
             <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
@@ -86,5 +86,6 @@
         </article>
     </main>
     <footer>Site recriado por <a class="externo" href="https://github.com/viniciuschiarato" target="_blank" >Vinícius Chiarato</a></footer>
+    <script src="index.js"></script>
 </body>
 </html>
